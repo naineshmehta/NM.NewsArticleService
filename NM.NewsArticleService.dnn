@@ -1,0 +1,58 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="NM.NewsArticleService" type="Module" version="00.00.01">
+      <friendlyName>NM.NewsArticleService</friendlyName>
+      <description>nainesh.mehta NM.NewsArticleService module</description>
+      <iconFile>~/Images/icon_extensions_32px.png</iconFile>
+      <owner>
+        <name>nainesh.mehta</name>
+        <organization>nainesh.mehta</organization>
+        <url></url>
+        <email>nainesh@cbconline.co.nz</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">07.00.02</dependency>
+      </dependencies>
+      
+      <components>
+        <component type="Script">
+          <scripts>
+            <basePath>DesktopModules\NM.NewsArticleService</basePath>
+            <script type="Install">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>00.00.01.SqlDataProvider</name>
+              <version>00.00.01</version>
+            </script>
+            <script type="UnInstall">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>Uninstall.SqlDataProvider</name>
+              <version>00.00.01</version>
+            </script>
+          </scripts>
+        </component>
+
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/NM.NewsArticleService</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+        
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>NM.NewsArticleService.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

@@ -1,0 +1,4 @@
+C:\inetpub\wwwroot\new.summerfestivalguide.co.uk\bin\NM.NewsArticleService.dll
+C:\inetpub\wwwroot\new.summerfestivalguide.co.uk\bin\NM.NewsArticleService.pdb
+C:\inetpub\wwwroot\new.summerfestivalguide.co.uk\DesktopModules\NM.NewsArticleService\obj\Release\NM.NewsArticleService.dll
+C:\inetpub\wwwroot\new.summerfestivalguide.co.uk\DesktopModules\NM.NewsArticleService\obj\Release\NM.NewsArticleService.pdb
